@@ -1,0 +1,19 @@
+.header{
+    margin: auto;
+    text-align: center;
+}
+.site-navigation li{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 120px;
+    list-style-type: none;
+    margin-top: 58px;
+    margin-bottom: 77px;
+    color:#626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 1;
+}
+.list-item:hover{
+    color:#03A9F4;
+}
