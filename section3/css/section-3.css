@@ -1,0 +1,224 @@
+.section-3{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+.first-title_section3{
+    color:#2c2c2c;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 200px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.first-title_section3::before{
+    content:"\005B";
+    color:#EEBF3E;
+}
+.first-title_section3::after{
+    content:"\005D"; 
+    color:#EEBF3E;
+}
+.second-title_section3{
+    color: #EEBF3E;
+    font-size: 16px;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 35px;
+}
+.cards_section3{
+    margin: auto;
+    text-align: center;
+}
+.card1_section3{   
+    text-align: left;
+    width: 320px;
+    height: 230px;
+    background:#F5F9FE;
+    padding:35px ;
+    
+}
+.card2-gs_section3{
+    text-align: left;
+    background: #E8F1FA;
+    width: 320px;
+    height: 230px;
+    padding: 40px;
+}
+.card1-dg_section3{
+    text-align: left;
+    width: 320px;
+    height: 230px;
+    background:#F5F9FE;
+    padding:35px ;
+}
+.card2_section3{
+    text-align: left;
+    background: #E8F1FA;
+    width: 320px;
+    height: 230px;
+    padding: 40px;
+}
+.title-card_section3{
+    color:#2C2C2C;
+    margin: auto;
+    font-size: 20px;
+    /* padding-top: 40px; */
+    text-align: left;
+    padding-bottom: 15px;
+}
+.title-card_section3::before{
+    content: url(../img/star.png);
+    padding-right: 10px;
+   
+}
+.age-card_section3{
+    color:#EEBF3E;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.age-card_section3::after{
+    content: "років";
+    font-size: 13px;
+    color: #EEBF3E;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #EEBF3E;
+    vertical-align: 20px;
+}
+.description_section3{
+    font-size: 14px;
+    color:#2C2C2C;
+   
+}
+@media(min-width: 768px){
+    .first-title_section3{
+        font-size: 20px;
+        width: 655px;
+    }
+    .second-title_section3{
+        font-size: 20px;
+        width: 460px;
+    }
+    .cards_section3{
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .card1-dg_section3{
+        text-align: left;
+        background: #E8F1FA;
+        width: 320px;
+        height: 230px;
+        padding: 40px;
+    }
+    .card2-gs_section3{
+        text-align: left;
+        width: 320px;
+        height: 230px;
+        background:#F5F9FE;
+        padding:35px ;
+    }
+    .image_section3{
+        width: 50px;
+        height: auto;
+    }
+}
+@media(min-width: 1200px){
+   .card1_section3{
+       width: 285px;
+       height: 285px;
+   }
+   .card2_section3{
+    width: 285px;
+    height: 285px;
+   }
+   .card1-dg_section3{
+    width: 285px;
+    height: 285px;
+    text-align: left;
+    background:#F5F9FE;
+    
+    
+   }
+   .card2-gs_section3{
+    width: 285px;
+    height: 285px;
+    text-align: left;
+    background: #E8F1FA;
+    
+
+   }
+   .cards_section3{
+       width:1140px;
+       display: flex;
+   }
+   .age-card_section3{
+       font-size: 30px;
+       padding-bottom: 20px;
+   }
+   .title-card_section3{
+       font-size: 21px;
+       padding-bottom: 27px;
+   }
+   .description_section3{
+       font-size: 16px;
+   }
+   
+
+}
+@media(min-width: 1920px){
+    .section-3{
+        margin-bottom: 65px;
+        margin-top: 65px;
+    }
+    .card1_section3{
+        width: 380px;
+        height: 320px;
+    }
+    .card2_section3{
+     width: 380px;
+     height: 320px;
+    }
+    .card1-dg_section3{
+     width: 380px;
+     height: 320px;
+     
+    }
+    .card2-gs_section3{
+        width: 380px;
+     height: 320px;
+    }
+    .cards_section3{
+        width:1520px;
+        
+    }
+    .first-title_section3{
+        font-size: 30px;
+        width: 980px;
+    }
+    .second-title_section3{
+        font-size: 30px;
+        width: 630px;
+    }
+     .age-card_section3{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .title-card_section3{
+        font-size: 30px;
+        padding-bottom: 27px;
+    }
+    .description_section3{
+    color: #282828;
+    width: 260px;    
+    } 
+    .image_section3{
+        width: 65px;
+        height: auto;
+    }
+ }
