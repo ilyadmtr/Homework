@@ -1,0 +1,75 @@
+main{
+    margin: auto;
+    text-align: center;
+}
+.title{
+    color:#333333;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+.card{
+    margin-bottom: 28px;
+}
+.div_photo{
+    width: 122px;
+    height: 122px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.photo{
+    border-radius: 100px;
+}
+.mini_photo{
+    position: absolute;
+    top:70%;
+    right: 3%;
+    
+    padding: 10px;
+    border-radius: 100px;
+     border: 3px solid #FFFFFF; 
+}
+.color-1{
+    background-color: #FF4E50;
+}
+.color-2{
+    background-color:#FFA507;
+}
+.color-3{
+    background-color:#1CD7AD;
+}
+.color-4{
+    background-color:#4E73DB; 
+}
+
+.name{
+    color:#333333;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    margin-bottom:16px ;
+}
+.name_descript{
+    color: #666666;;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 217px;
+    margin: auto;
+    font-weight: 300;
+}
+.last_button{
+    font-size: 14px;
+    color: #FF4E50;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 52px 15px 52px;
+    background-color: #fff;
+    margin-bottom: 150px;
+    border: #FF4E50 3px solid ;
+    border-radius: 30px; 
+    
+}
